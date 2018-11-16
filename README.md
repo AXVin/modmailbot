@@ -5,6 +5,10 @@ Moderators and admins can then reply to these threads, and these responses are r
 
 Inspired by Reddit's modmail system.
 
+# Compatible with Glitch.me
+Glitch is a cloud hosting app(similar to Heroku but better because it saves data)
+If you know how to host on glitch(which is complicated) then just host it and you won't need to do any other fancy stuff!
+
 ### NOTE! If you're upgrading from a version prior to Feb 24 2018:
 * Take backups
 * Remove the `node_modules` directory
