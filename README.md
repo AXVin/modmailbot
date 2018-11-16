@@ -68,6 +68,8 @@ These go in `config.json`. See also `config.example.json`.
 |**logChannelId**|None|**Required!** Channel where to post log links to closed threads and other alerts|
 |**mailGuildId**|None|**Required!** The inbox server's ID|
 |**mainGuildId**|None|**Required!** ID (or array of IDs) of the main server where people contact the bot from. Used for displaying users' nicknames and join dates, and catching bot pings.|
+|**useLogFile**|false|**If you want logs to work set this to true**|
+|**logFileChannelID**|None|**Must set this if useLogFile is set to true!** Suggestion: Keep it same as logChannelId|
 |accountAgeDeniedMessage|"Your Discord account is not old enough to contact modmail."|See `requiredAccountAge` above|
 |allowMove|false|If enabled, allows you to move the thread to another category using `!move <category>`|
 |allowUserClose|false|If set to true, users can use the close command to close threads by themselves from their DMs with the bot|
