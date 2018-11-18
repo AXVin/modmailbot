@@ -35,11 +35,11 @@
   "greetingMessage": null,
   "greetingAttachment": null,
 
-  "requiredAccountAge": null, // In hours
+  "requiredAccountAge": null,
   "accountAgeDeniedMessage": "Your Discord account is not old enough to contact modmail.",
 
   "relaySmallAttachmentsAsAttachments": false,
-  "smallAttachmentLimit": 1024 * 1024 * 2,
+  "smallAttachmentLimit": 2097152,
 
   "port": 8890,
   "url": null
