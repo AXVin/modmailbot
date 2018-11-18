@@ -5,7 +5,42 @@
   "logChannelId": "id of the channel on the inbox server where notifications of new logs etc. will be posted",
   "useLogFile": true,
   "logFileChannelID": "id of the channel on the inbox server where .txt file version of will be sent! (Suggestion: Use the same id as of logChannelId",
+  
+  "prefix": "!",
+  "snippetPrefix": "!!",
+  "snippetPrefixAnon": "!!!",
 
   "status": "Message me for help!",
-  "responseMessage": "Thank you for your message! Our mod team will reply to you here as soon as possible."
+  "responseMessage": "Thank you for your message! Our mod team will reply to you here as soon as possible.",
+  "closeMessage": null,
+  "allowUserClose": false,
+  
+  "newThreadCategoryId": null,
+  "mentionRole": "here",
+  "pingOnBotMention": true,
+  "botMentionResponse": null,
+
+  "inboxServerPermission": null,
+  "alwaysReply": false,
+  "alwaysReplyAnon": false,
+  "useNicknames": false,
+  "ignoreAccidentalThreads": false,
+  "threadTimestamps": false,
+  "allowMove": false,
+  "typingProxy": false,
+  "typingProxyReverse": false,
+  "mentionUserInThreadHeader": false,
+
+  "enableGreeting": false,
+  "greetingMessage": null,
+  "greetingAttachment": null,
+
+  "requiredAccountAge": null, // In hours
+  "accountAgeDeniedMessage": "Your Discord account is not old enough to contact modmail.",
+
+  "relaySmallAttachmentsAsAttachments": false,
+  "smallAttachmentLimit": 1024 * 1024 * 2,
+
+  "port": 8890,
+  "url": null
 }
