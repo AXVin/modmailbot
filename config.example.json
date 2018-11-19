@@ -39,8 +39,5 @@
   "accountAgeDeniedMessage": "Your Discord account is not old enough to contact modmail.",
 
   "relaySmallAttachmentsAsAttachments": false,
-  "smallAttachmentLimit": 2097152,
-
-  "port": 8890,
-  "url": null
+  "smallAttachmentLimit": 2097152
 }
